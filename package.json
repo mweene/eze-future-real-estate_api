@@ -1,0 +1,18 @@
+{
+  "name": "eze-future-real-estate_api",
+  "version": "1.0.0",
+  "description": "A REST API for Eze future real estate that returns client data for the company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "harrison mweene",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
