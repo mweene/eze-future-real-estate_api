@@ -5,15 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/index.js" defer></script>
         <title><%=title%></title>
     </head>
     <body>
         <%- include('partials/header') -%>
         <main>
-            <h1><%=title%></h1>
-            <p>welcome this is ting</p>
+            <div class="buttons">
+                <button class="started">get started</button>
+                <button class="demo">try demo</button>
+            </div>
+
+            <section class="api_features">
+                <h2>api features</h2>
+                <p>This api is the best believe that, a first of it's kind and in a market that doesn't even konw what an api is, we are killing it.</p>
+            </section>
         </main>
         <%- include('partials/footer') -%>
     </body>
